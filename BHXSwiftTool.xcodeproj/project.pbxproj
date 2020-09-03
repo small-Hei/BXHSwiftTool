@@ -15,6 +15,7 @@
 		55947BB1250105000078719F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55947BAF250105000078719F /* LaunchScreen.storyboard */; };
 		55947BBC250105000078719F /* BHXSwiftToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55947BBB250105000078719F /* BHXSwiftToolTests.swift */; };
 		55947BC7250105000078719F /* BHXSwiftToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55947BC6250105000078719F /* BHXSwiftToolUITests.swift */; };
+		55947BD5250107680078719F /* PrefixProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55947BD4250107680078719F /* PrefixProtocolExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		55947BC2250105000078719F /* BHXSwiftToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BHXSwiftToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55947BC6250105000078719F /* BHXSwiftToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BHXSwiftToolUITests.swift; sourceTree = "<group>"; };
 		55947BC8250105000078719F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55947BD4250107680078719F /* PrefixProtocolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefixProtocolExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				55947BAD250105000078719F /* Assets.xcassets */,
 				55947BAF250105000078719F /* LaunchScreen.storyboard */,
 				55947BB2250105000078719F /* Info.plist */,
+				55947BD4250107680078719F /* PrefixProtocolExtension.swift */,
 			);
 			path = BHXSwiftTool;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55947BA9250104FF0078719F /* ViewController.swift in Sources */,
+				55947BD5250107680078719F /* PrefixProtocolExtension.swift in Sources */,
 				55947BA5250104FF0078719F /* AppDelegate.swift in Sources */,
 				55947BA7250104FF0078719F /* SceneDelegate.swift in Sources */,
 			);
